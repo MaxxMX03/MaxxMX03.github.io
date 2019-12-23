@@ -1,0 +1,38 @@
+body {
+    background: rgba(106, 106, 106, 0.29);
+
+}
+
+.topStreak {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    clip-path: polygon(100% 0, 100% 11%, 0 24%, 0 0);
+    color: white;
+    padding: 2%;
+}
+
+
+.download {
+    width: 90px;
+    height: 40px;
+}
+
+
+.textDiv {
+
+    padding-left: 35vh;
+    padding-right: 55vh;
+}
+
+.page {
+
+    text-align: justify;
+    padding: 25vh 10vh 10vh 10vh;
+    width: 100%;
+    height:100%;;
+    background-color: white;
+}
