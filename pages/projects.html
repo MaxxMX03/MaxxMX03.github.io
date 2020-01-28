@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../Style/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1>Maximilian Steiger</h1>
+            </li>
+            <li> <a href="https://www.instagram.com/maxi_steiger/">Instagram</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="projects.html">code projects</a></li>
+            <li><a href="images.html">images</a></li>
+            <li><a href="https://www.htl-leonding.at/">Schule</a></li>
+        </ul>
+    </nav>
+    <script>
+        alert("Press on a Name");
+
+        function hideAndShowProject(number) {
+
+            let div = document.getElementById("code" + number);
+
+            if (div.style.display === "none") {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+
+    </script>
+    <div class="content">
+        
+        <!--        first Project-->
+        
+        <div class="project1">
+            <div class="headline">
+                <h2 onclick="hideAndShowProject(1)">merge-sort in JS</h2>
+            </div>
+            <div class="displayNoneProject" id="code1">
+                <iframe class="iframeProject" src="../pdf/one.pdf" height="1000vh" width="99%">sdf</iframe>
+            </div>
+        </div>
+
+        <!--        second Project-->
+
+        <div class="project2">
+            <div class="headline">
+                <h2 onclick="hideAndShowProject(2)">array-filter in JS</h2>
+            </div>
+            <div class="displayNoneProject" id="code2">
+                <iframe class="iframeProject" src="../pdf/second.pdf" height="1000vh" width="99%">sdf</iframe>
+            </div>
+        </div>
+        
+        <!--        third Project-->
+        
+        <div class="project3">
+            <div class="headline">
+                <h2 onclick="hideAndShowProject(3)">merge-sort in JS</h2>
+            </div>
+            <div class="displayNoneProject" id="code3">
+                <iframe class="iframeProject" src="../pdf/one.pdf" height="1000vh" width="99%">sdf</iframe>
+            </div>
+        </div>
+
+        <!--        fourth Project-->
+
+        <div class="project4">
+            <div class="headline">
+                <h2 onclick="hideAndShowProject(4)">merge-sort in JS</h2>
+            </div>
+            <div class="displayNoneProject" id="code4">
+                <iframe class="iframeProject" src="../pdf/one.pdf" height="1000vh" width="99%">sdf</iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

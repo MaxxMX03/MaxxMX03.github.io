@@ -1,0 +1,93 @@
+* {
+
+    text-decoration: none;
+    font-family: 'Quantico', sans-serif;
+    list-style-type: none;
+    color: white;
+}
+
+body {
+    background-color: #000000;
+}
+
+h2 {
+
+    text-shadow: 3px 2px 4px #000000;
+
+}
+
+/*Nav*/
+
+nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 20vh;
+    font-size: 4.5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav li {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgba(17, 17, 17, 0.42);
+}
+
+#indexPIC {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    height: 100%;
+    width: 100vh;
+    padding-left: 50vh;
+}
+
+.indexDiv {
+    height: 50vh;
+    padding: 1vh;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+/*zum aufdecken ist die div zuerst verdeckt*/
+.displayNoneProject {
+    display: none;
+}
+
+.content img {
+    width: 50vh;
+    float: left;
+}
+
+.headline {
+    background-color: #ffffff;
+}
